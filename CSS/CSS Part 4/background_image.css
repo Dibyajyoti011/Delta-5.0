@@ -1,0 +1,26 @@
+/* ! Syntax:-  background-size: Contain/ Cover / auto ; */
+
+/* * Contain:- [No Crop, No Scale] Here to fill the area the image will repeat . */
+/* * Cover:- [No Scale] Here the image will Croped to fit in. */
+/* * Auto:- Here the image stretched to fit in the background. */
+
+
+div {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(pikachu.jpg);
+
+    /*? background-size: contain; */
+    /* * Contain:- [No Crop, No Scale] Here to fill the area the image will repeat . */
+
+     background-size: cover;
+    /* * Cover:- [No Scale] Here the image will Croped to fit in. */
+
+    /*? background-size: auto;*/
+    /* * Auto:- Here the image stretched to fit in the background. */
+
+
+}

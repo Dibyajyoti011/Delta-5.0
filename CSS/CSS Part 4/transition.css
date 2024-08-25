@@ -1,0 +1,22 @@
+div {
+  height: 100px;
+  width: 100px;
+  /* background-color: rgba(255, 0, 0, 0.804); */
+  /* In HexCode */
+  background-color: #09c009ff;
+  /* transition-duration: 1s ;
+  transition-delay: 1s; */
+  /* !Transition Short Hand */
+  /* Property name | Duration | Timing-function | Delay */
+  /* * Example: transition: margine-top 2s ease-in-out 0.2s; */
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: margin-top 2s ease-in 0.2s;
+}
+
+div:hover {
+  /* background-color: red;
+  border-radius: 50%; */
+  margin-top: 400px;
+  background-color: pink;
+}

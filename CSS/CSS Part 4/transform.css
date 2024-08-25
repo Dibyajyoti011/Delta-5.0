@@ -1,0 +1,57 @@
+/* !Transform: This property lets you 1>rotate, 2>scale, 3>skew or 4>translate an element. */
+
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-last-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-last-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* *transform:rotate */
+
+#one {
+    transform: rotate(45deg);
+}
+
+/* *transform: scale */
+
+#two {
+    /* transform: scale(2);----> It will change both X and Y direction Scale means the Heigth and Width both will Changes */
+    transform: scale(0.5,2);/*----> It will show the X and Y direction Scale separately scale(X,Y) means we directly changes Heigth and width with different Values */
+    /* transform: scaleX(2); -----> Only X direction Scale Changes means Width will changes but Height will remains same  */
+    /* transform: scaleY(2); ------->Only Y direction Scale Changes means Height will changes but Weidth will remains same  */
+}
+
+/* * transform:translate [only Use in 2D plane]*/
+
+#three {
+    transform: translate(100px,100px);/* ---->Here Both X and Y direction translate will occurs */
+    /* transform: translateX(100px); ------->The translate will Changes With the x directions Only means Only X direction Will changes But Y direction remain Same  */
+    /* transform: translateY(100px); --------->The translate will Changes With the Y directions Only means Only Y direction Will changes But X direction remain Same  */
+}
+
+/* * transform:skew */
+
+#four {
+    transform: skew(30deg);
+}
+
+/* !Transform Property togather */
+
+#five {
+    transform: rotate(30deg) translateX(200px);
+}

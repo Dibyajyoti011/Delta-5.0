@@ -1,0 +1,13 @@
+h1 {
+  color: rgba(159, 210, 40, 0.753);
+  background-color: gray;
+}
+p {
+  color: blueviolet;
+  background-color: #cdbc4e6a;
+}
+button {
+  color: darkred;
+  background-color: #8a70c3;
+  /* background: black; */
+}

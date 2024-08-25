@@ -1,0 +1,46 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    /* !Border Short Hand */
+    border: 5px solid black;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    /* border-top: 2px dashed blue; */
+    border-radius: 20px;
+    padding-top: 10px;
+    /* margin-bottom: 25px;
+  margin-left: 25px; */
+    /* !Margine Short Hand */
+    /* margin: 25px; */
+    /* For all sides */
+    /* margin: 25px 25px; For top & bottom | left and right sides */
+    /*  margin: 20px 30px 40px; For top | left and right sides| bottom */
+     margin: 20px 30px 40px 50px ;/* For top | left |right| bottom [ClockWise]*/
+}
+
+h1 {
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: green; */
+    border: 2px dashed red;
+    border-radius: 20px;
+    margin: 0;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 20px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    /* !padding Short Hand */
+    /* padding: 25px;   For all sides */
+    /* padding: 25px 25px; For top & bottom | left and right sides */
+    /*  padding: 20px 30px 40px; For top | left and right sides| bottom [ClockWise]*/
+    /* padding: 20px 30px 40px 50px ; For top | left |right| bottom */
+    padding: 0px 20px 0px 20px;
+    background-color: yellow;
+}

@@ -1,0 +1,15 @@
+/* Alpha Channel set the Colour Opaciity */
+
+div {
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(255, 0, 0, 0.804); */
+    /* In HexCode */
+    background-color: #09c009ff;
+}
+
+/* Opacity---> Sets Element Visiblity; Range 0 to 1 */
+#opacity {
+    background-color: #ffa511;
+    opacity: 1;
+}

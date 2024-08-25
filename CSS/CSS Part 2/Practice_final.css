@@ -1,0 +1,76 @@
+/* ! *****Part-A***** */
+/* ? Q1 */
+
+#mainTopic {
+    color: blue;
+}
+
+/* ?Q2 */
+
+* {
+    text-align: center;
+}
+
+/* ?Q3 */
+
+h1,
+h3,
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ?Q4 */
+
+body>p {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* ?Q5 */
+
+div>button {
+    background-color: purple;
+    color: azure;
+}
+
+/* ! *****Part-B****** */
+/* ?Q6 */
+
+div>button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* ?Q7 */
+
+p:nth-of-type(2n-1) {
+    background-color: yellow;
+}
+
+/* ?Q8 */
+
+h1::first-letter {
+    color: red;
+}
+
+/* ?Q9 */
+
+#yes:checked+label {
+    color: darkgreen;
+}
+
+/* ?Q10 */
+
+/* ! #mainContent >div .main > .main > h1 */
+
+
+
+
+
+
+
+
+
+
+
+
