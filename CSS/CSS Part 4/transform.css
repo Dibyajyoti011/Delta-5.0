@@ -29,9 +29,9 @@ div:nth-last-of-type(3n) {
 
 /* *transform: scale */
 
-#two {
-    /* transform: scale(2);----> It will change both X and Y direction Scale means the Heigth and Width both will Changes */
-    transform: scale(0.5,2);/*----> It will show the X and Y direction Scale separately scale(X,Y) means we directly changes Heigth and width with different Values */
+#two{
+    transform: scale(2); /*----> It will change both X and Y direction Scale means the Heigth and Width both will Changes*/
+    /* transform: scale(0.5,2);----> It will show the X and Y direction Scale separately scale(X,Y) means we directly changes Heigth and width with different Values */
     /* transform: scaleX(2); -----> Only X direction Scale Changes means Width will changes but Height will remains same  */
     /* transform: scaleY(2); ------->Only Y direction Scale Changes means Height will changes but Weidth will remains same  */
 }
@@ -39,7 +39,7 @@ div:nth-last-of-type(3n) {
 /* * transform:translate [only Use in 2D plane]*/
 
 #three {
-    transform: translate(100px,100px);/* ---->Here Both X and Y direction translate will occurs */
+    transform: translate(100px,100px); /*---->Here Both X and Y direction translate will occurs*/
     /* transform: translateX(100px); ------->The translate will Changes With the x directions Only means Only X direction Will changes But Y direction remain Same  */
     /* transform: translateY(100px); --------->The translate will Changes With the Y directions Only means Only Y direction Will changes But X direction remain Same  */
 }

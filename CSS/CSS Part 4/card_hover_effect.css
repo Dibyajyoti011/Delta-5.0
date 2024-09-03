@@ -8,19 +8,20 @@
      border: 2px solid black; 
     display: inline-block;
     margin: 20px;
-    border-radius: 5px ;
+    border-radius: 8px ;
     box-shadow: 0px 4px 10px black;
     transition: 0.5s;
 }
 
 .man{
-    width: 250px;
-    height: 300px;
+    width: 210px;
+    height: 250px;
+   
 }
 
 .woman{
-    width: 250px;
-    height: 300px;
+    width: 210px;
+    height: 250px;
 }
 .desc{
     padding: 0 2px 0 2px;
@@ -34,3 +35,9 @@ img{
 .card:hover{
     box-shadow: 0px 8px 20px goldenrod;
 }
+
+.card:active{
+    background-color: black;
+    box-shadow: 0px 8px 20px rgb(37, 71, 156);
+}
+
