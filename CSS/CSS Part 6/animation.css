@@ -1,0 +1,63 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: frontAnimation; */
+    /* animation-name: BgcAnimation; */
+    /* animation-name: WidthAnimation; */
+    /* animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal; */
+    /* ! Animation Short Hand */
+    /* animation: WidthAnimation 3s ease-in 0s normal; */
+    animation: Percent 4s ease-in 0s normal;
+}
+
+@keyframes frontAnimation {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes BgcAnimation {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@keyframes WidthAnimation {
+    from {
+        width: 10px;
+        background-color: blue;
+    }
+
+    to {
+        width: 400px;
+        background-color: red;
+        border-radius: 15px;
+    }
+}
+
+@keyframes Percent {
+    0% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: lightsalmon;
+    }
+
+    100% {
+        background-color: lightblue;
+    }
+}
